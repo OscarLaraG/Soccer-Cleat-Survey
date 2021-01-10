@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+  background-color: white;
+  line-height: 1.8;
+  width: 500px;
+  margin: auto;
+}
+
+
+h1{
+
+  font-family: sans-serif;  
+  background-color: #D7DCDD;
+  border-radius: 2rem;
+}
+
+form{
+  background-color: #D7DCDD;
+  border-radius: 2rem;
+}
+
+.submit-button{
+  background-color:white;
+  border-radius: 2rem;
+  color: black;
+  cursor: pointer;
+  
+  
+  
+}

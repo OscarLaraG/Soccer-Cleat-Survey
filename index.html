@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title" style="color:black;"> Soccer Cleat Survey </h1>
+  
+  <p id="description"> Fill details below for Cleat Survey. </p>
+
+
+<form id="survey-form"> 
+  
+  <label for="name" id = "name-label"> Name </label>
+  <input id="name" type="text" name="name" placeholder="Cristiano Ronaldo" required ></input>
+<br>
+
+
+<label for="email" id = "email-label"> Email </label>
+<input id="email" type="email" name="email" placeholder="CristianoR7@gmail.com" required> </input>
+<br>
+
+
+<label for="number" id = "number-label"> Size </label>     
+<input id="number" type="number" name="number" placeholder="9" min = "7" max = "16" required> </input>
+<br>
+
+
+<label for="dropdown" id="brand"> Select brand </label>
+<select id="dropdown">
+  <option value="Nike"> Nike </option>
+  <option value="Adidas"> Adidas</option>
+  <option value="New Balance"> New Balance </option>
+  <option value="Puma"> Puma </option>                      
+</select>
+<br>
+<br>
+
+<label for="cleat_color" id="cleat_color"> Cleat Color: </label>
+<br>
+<input id="cleat_color" type="radio" id="black" name="color" value="black">
+<label for= "cleat_color"> Black </label>
+<br> 
+<input id="cleat_color" type="radio" id="red" name="color" value="red">
+<label for= "cleat_color"> Red </label>
+<br>
+<input id="cleat_color" type="radio" id="blue" name="color" value="blue">
+<label for= "cleat_color"> Blue </label>
+<br>
+<br>
+
+
+<label for="Features"> <u><b> Add certain Features:</u></b> </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="Boot version" >
+<label for = "checkbox" > Boot Version </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="Turf" >
+<label for = "checkbox"  >Turf </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="Cleat" >
+<label for = "checkbox" > Cleat </label>
+<br>
+
+<label id="textarea"> Additional Comments </label>
+<br>
+<textarea id="textarea" name="textarea" row="5" cols="35">
+</textarea>
+<br>
+<br>
+
+<input id="submit" type="submit" value="Submit Survey!" class="submit-button">
+
+  
+  
+  
+  
+  
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
